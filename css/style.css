@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Light.woff') format('woff'),
+        url('ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.woff') format('woff'),
+        url('Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff') format('woff'),
+        url('Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.navbar {
+	font-family: "Roboto", sans-serif;
+    position: absolute;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link, .nav-item p {
+    color: white;
+}
+
+
+
+.nav-item, p {
+margin: 0px;
+font-size: 16px;
+}
+
+.nav-link-2 {
+    font-size: 14px;
+   
+}
+
+.nav-link-3 {
+    font-size: 20px;
+    padding-top: 0px;
+    letter-spacing: 1px;
+}
+.nav-link>.nav-link-3 {
+    padding-left: 0!important;
+}
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand>img {
+vertical-align: baseline;
+}
+.intro-sect {
+    background-image: url(../img/intro-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0 80px;
+}
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.intro-top-headings {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.intro-sect h1, .intro-sect h3, .intro-sect h4, .intro-sect, .intro-list {
+color: white;
+}
+.intro-list {
+    list-style: none;
+    padding: 0;
+}
+
+.intro-list li {
+    margin: 20px 0;
+}
+
+.intro-list li:before {
+content: "";
+background-image: url(../img/check-white.png);
+background-size: contain;
+background-repeat: no-repeat;
+width: 25px;
+height: 25px;
+margin-right: 10px;
+display: inline-block;
+vertical-align: middle;
+}
+
+
+.intro-form {
+    width: 302px;
+    background-color: white;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.intro-form-block {
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Proxima Nova' sans-serif;
+    color: #2f93d8;
+    font-size: 18px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro-input {
+    height: 40px;
+    margin: 4px;
+    width: 250px;
+    
+}
+
+
+.call-2 {
+    font-size: 14px;
+    padding: 5px;
+    background-color: #2f93d8;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.call-2:hover {
+    background-color: #58ade6;
+}
+
+	
+.scheme-sect {
+	margin: 100px 0;
+	text-align: center;
+}
+
+.scheme-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+h2 {
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+.scheme-icon {
+	border: 2px solid #3e9bda;
+	border-radius: 50%;
+	width: 112px;
+	height: 112px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 70px 0 25px;
+}
+
+.scheme-item {
+	flex-basis: 20%;
+	max-width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.scheme-item:after {
+content: "";
+background-image: url(../img/arrow.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 12px;
+height: 20px;
+display: inline-block;
+position: absolute;
+right: -23px;
+top: 120px;
+}
+
+.scheme-item:last-of-type.scheme-item:after {
+display: none;
+}
+
+.logo-sect {
+    box-shadow: 1px 1px 10px 10px #ededed;
+    padding: 45px 55px;
+    width: 90%;
+    margin: 0px auto;
+}
+.logo-text {
+    margin-top: 60px;
+}
+.logo-container {
+	text-align: center;  
+}
+
+.logo-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0;
+}
+
+
+.discount {
+    text-align: center;
+}
+.discount-text {
+    margin-top: 100px;
+}
+
+.itm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 85px 0 72px;
+}
+
+.col {
+    border: 1px solid gray;
+    display: block;
+    flex: none;
+    padding: 20px;
+    width: 205px;
+   
+}
+
+.col-item {
+    background-color: #2f93d8;
+    color: white;
+}
+
+.products-sect {
+    height: 430px;
+    border: 1px solid rgb(245, 240, 240);
+    width: 270px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 10px 10px #ededed;
+}
+.products-sect-center {
+    height: 470px;
+    margin: 0;
+}
+.products-name {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+.products-price {
+    text-align: center;
+    margin: 20px auto;
+}
+.products-price-1 {
+    font-size: 36px;
+    color: #2f93d8;
+    
+}
+
+.products-price-2 {
+    font-size: 14px;
+}
+
+.products-text {
+    font-size: 14px;
+    padding-right: 120px;
+}
+
+.products-1 {
+    font-size: 14px;
+    padding: 5px;
+    background-color: #2f93d8;
+    color: white; 
+    width: 220px;
+    height: 45px;
+    margin: 56px 12px;  
+}
+.products-center {
+    margin: 96px 13px 0;
+}
+.free {
+    background: #2f93d8;
+    background-size: cover;
+    color: white;
+    min-height: 610px;
+    margin: 100px auto 0;
+    width: 90%;
+
+}
+.free-consultation {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 75px;
+    padding-left: 50px;
+}
+.free-application {
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+.intro-form-free {
+    height: 289px;
+    margin: 100px auto;
+}
+.intro-conf {
+    color: #2e93d8;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.main {
+    min-height: calc(100vh-100px);
+}
+.footer-sect {
+    margin: 20px;
+}
+.footer-logo {
+    padding: 0 0 10px;
+}
+.footer-text-right {
+text-align: right;
+}
+
+@media (max-width: 992px) {
+    .intro-sect {
+        padding: 90px 0 80px;
+    }
+    .navbar-collapse {
+        background-color: cadetblue;
+        padding-left: 5px;
+    }
+    .free {
+        min-height: 500px;
+    }
+    .free-consultation {
+              font-size: 50px;
+              padding: 0;
+              text-align: center;
+    }
+    .free-application {
+              font-size: 30px;
+              padding: 0;
+              text-align: center;
+    }
+    .intro-top-headings {
+        margin-top: 55px;
+    }
+    .products-center {
+        margin: 56px 13px 0;
+    }
+    .products-sect-right {
+        margin-top: 20px;
+    }
+    .products-sect-center {
+        margin: 20px auto; 
+        height: 430px;
+    }
+}
+
+@media (max-width: 768px) {
+     .scheme-container {
+		 flex-direction: column;
+	 }
+	 .scheme-item {
+		 flex-basis: 100%;
+		 max-width: 100%;
+	 }
+	 .scheme-item:after {
+		 display: none;
+	 }
+
+	 .logo-row {
+		 flex-direction: column;
+		 margin: 0;
+	 }
+	 .logo-row img {
+		 margin: 20px 0;
+	 }
+     .free-consultation {
+        font-size: 35px;
+}
+}
+@media (max-width: 576px) {
+	h1, h2 {
+		font-size: 30px;
+	}
+}
